@@ -1,0 +1,32 @@
+{"query": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "answer": "workerEnv.init() ok {variables}"}
+{"query": "mod_jk child workerEnv in error state 7", "answer": "mod_jk child workerEnv in error state {variables}"}
+{"query": "jk2_init() Found child 2880 in scoreboard slot 8", "answer": "jk2_init() Found child {variables} in scoreboard slot {variables}"}
+{"query": "[client 68.228.3.15] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "jk2_init() Can't find child 5619 in scoreboard", "answer": "jk2_init() Can't find child {variables} in scoreboard"}
+{"query": "mod_jk child init 1 -2", "answer": "mod_jk child init {variables} {variables}"}
+{"query": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "answer": "workerEnv.init() ok {variables}"}
+{"query": "mod_jk child workerEnv in error state 9", "answer": "mod_jk child workerEnv in error state {variables}"}
+{"query": "jk2_init() Found child 32466 in scoreboard slot 11", "answer": "jk2_init() Found child {variables} in scoreboard slot {variables}"}
+{"query": "[client 218.75.106.250] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "jk2_init() Can't find child 2085 in scoreboard", "answer": "jk2_init() Can't find child {variables} in scoreboard"}
+{"query": "mod_jk child init 1 -2", "answer": "mod_jk child init {variables} {variables}"}
+{"query": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "answer": "workerEnv.init() ok {variables}"}
+{"query": "mod_jk child workerEnv in error state 9", "answer": "mod_jk child workerEnv in error state {variables}"}
+{"query": "jk2_init() Found child 5495 in scoreboard slot 9", "answer": "jk2_init() Found child {variables} in scoreboard slot {variables}"}
+{"query": "[client 218.62.18.218] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "jk2_init() Can't find child 5054 in scoreboard", "answer": "jk2_init() Can't find child {variables} in scoreboard"}
+{"query": "mod_jk child init 1 -2", "answer": "mod_jk child init {variables} {variables}"}
+{"query": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "answer": "workerEnv.init() ok {variables}"}
+{"query": "mod_jk child workerEnv in error state 6", "answer": "mod_jk child workerEnv in error state {variables}"}
+{"query": "jk2_init() Found child 2773 in scoreboard slot 6", "answer": "jk2_init() Found child {variables} in scoreboard slot {variables}"}
+{"query": "[client 147.31.138.75] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "jk2_init() Can't find child 1566 in scoreboard", "answer": "jk2_init() Can't find child {variables} in scoreboard"}
+{"query": "mod_jk child init 1 -2", "answer": "mod_jk child init {variables} {variables}"}
+{"query": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "answer": "workerEnv.init() ok {variables}"}
+{"query": "mod_jk child workerEnv in error state 10", "answer": "mod_jk child workerEnv in error state {variables}"}
+{"query": "jk2_init() Found child 32455 in scoreboard slot 9", "answer": "jk2_init() Found child {variables} in scoreboard slot {variables}"}
+{"query": "[client 216.127.124.16] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "jk2_init() Can't find child 5054 in scoreboard", "answer": "jk2_init() Can't find child {variables} in scoreboard"}
+{"query": "mod_jk child init 1 -2", "answer": "mod_jk child init {variables} {variables}"}
+{"query": "[client 168.20.198.21] Directory index forbidden by rule: /var/www/html/", "answer": "[client {variables}] Directory index forbidden by rule: {variables}"}
+{"query": "mod_jk child workerEnv in error state 9", "answer": "mod_jk child workerEnv in error state {variables}"}

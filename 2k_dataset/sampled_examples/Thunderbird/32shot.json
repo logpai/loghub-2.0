@@ -1,0 +1,32 @@
+{"query": "Using configuration type 1", "answer": "Using configuration type {variables}"}
+{"query": "kernel time sync disabled 0041", "answer": "kernel time sync disabled {variables}"}
+{"query": "CentOS-4 (Kernel Module GPG key)", "answer": "CentOS-{variables} (Kernel Module GPG key)"}
+{"query": "[ib_sm_sweep.c:1482]: No configuration change required", "answer": "[ib_sm_sweep.c:{variables}]: No configuration change required"}
+{"query": "routing cache hash table of 65536 buckets, 1024Kbytes", "answer": "routing cache hash table of {variables} buckets, {variables}"}
+{"query": "synchronized to #3#, stratum 1", "answer": "synchronized to {variables}, stratum {variables}"}
+{"query": "Warning: we failed to resolve data source name an270 an271 an272 an273 an274 an275 an276 an277 an278 an279 an280 an281 an282 an283 an284 an285 an286 an287 an288 an289 an290 an291 an292 an293 an294 an295 an296 an297 an298 an299 an300 an301 an302 an303 an304 an305 an306 an307 an308 an309 an310 an311 an312 an313 an314 an315 an316 an317 an318 an319 an320 an321 an322 an323 an324 an325 an326 an327 an328 an329 an330 an331 an332 an333 an334 an335 an336 an337 an338 an339 an340 an341 an342 an343 an344 an345 an346 an347 an348 an349 an350 an351 an352 an353 an354 an355 an356 an357 an358 an359 an360 an361 an362 an363 an364 an365 an366 an367 an368 an369 an370 an371 an372 an373 an374 an375 an376 an377 an378 an379 an380 an381 an382 an383 an384", "answer": "Warning: we failed to resolve data source name {variables}"}
+{"query": "Started working: 1 available service", "answer": "Started working: {variables} available service"}
+{"query": "fw version:[516A] bios version:[H418]", "answer": "fw version:[{variables}] bios version:[{variables}]"}
+{"query": "Starting ts_fixup: succeeded", "answer": "Starting ts_fixup: succeeded"}
+{"query": "rpc.statd startup succeeded", "answer": "rpc.statd startup succeeded"}
+{"query": "(root) CMD (run-parts /etc/cron.hourly)", "answer": "({variables}) CMD (run-parts {variables})"}
+{"query": "RSDP (v000 DELL ) @ 0x00000000000fd650", "answer": "RSDP ({variables} DELL ) @ {variables}"}
+{"query": "MegaRAID Model: LD 0 RAID1 139G Rev: 516A", "answer": "MegaRAID Model: LD {variables} RAID1 {variables} Rev: {variables}"}
+{"query": "eth1: e1000_probe: Intel(R) PRO/1000 Network Connection", "answer": "{variables}: {variables}: Intel(R) PRO/{variables} Network Connection"}
+{"query": "DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1", "answer": "DHCPREQUEST for {variables} ({variables}) from {variables} via eth1"}
+{"query": "Autodetecting RAID arrays.", "answer": "Autodetecting RAID arrays."}
+{"query": "portmap startup succeeded", "answer": "portmap startup succeeded"}
+{"query": "Wait for ready failed before probe !", "answer": "Wait for ready failed before probe !"}
+{"query": "removing ntalk", "answer": "removing {variables}"}
+{"query": "session closed for user root", "answer": "session closed for user {variables}"}
+{"query": "Processor ANSI SCSI revision: 02", "answer": "Processor ANSI SCSI revision: {variables}"}
+{"query": "allocating divert_blk for eth0", "answer": "allocating divert_blk for {variables}"}
+{"query": "Hash tables configured (established 262144 bind 65536)", "answer": "Hash tables configured (established {variables} bind {variables})"}
+{"query": "apic_id 8, version 32, address 0xfec00000, GSI 0-23", "answer": "apic_id {variables}, version {variables}, address {variables}, GSI {variables}"}
+{"query": "Mounting NFS filesystems: succeeded", "answer": "Mounting NFS filesystems: succeeded"}
+{"query": "Interpreter enabled", "answer": "Interpreter enabled"}
+{"query": "[ib_sm_sweep.c:1455]: No topology change", "answer": "[ib_sm_sweep.c:{variables}]: No topology change"}
+{"query": "RNG not detected", "answer": "RNG not detected"}
+{"query": "IRQ2 used by override.", "answer": "{variables} used by override."}
+{"query": "HPET id: 0xffffffff base: 0xfed00000", "answer": "HPET id: {variables} base: {variables}"}
+{"query": "xinetd Version 2.3.13 started with libwrap loadavg options compiled in.", "answer": "xinetd Version {variables} started with libwrap loadavg options compiled in."}

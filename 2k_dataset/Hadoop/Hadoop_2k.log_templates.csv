@@ -1,0 +1,115 @@
+EventId,EventTemplate,Occurrences
+E29,Created MRAppMaster for application <*>,1
+E42,Executing with tokens:,1
+E61,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)",1
+E111,Using mapred newApiCommitter.,1
+E76,OutputCommitter set in config <*>,1
+E75,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter,1
+E89,Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>,9
+E31,Default file system [hdfs://<*>:<*>],3
+E37,Emitting job history data to the timeline server is not enabled,1
+E63,loaded properties from hadoop-metrics2.properties,1
+E92,Scheduled snapshot period at <*> second(s).,1
+E69,MRAppMaster metrics system started,1
+E7,Adding job token for <*> to jobTokenSecretManager,1
+E71,Not uberizing <*> because: not enabled; too many maps; too much input;,1
+E48,Input size for job <*> = <*>. Number of splits = <*>,1
+E73,Number of reduces for job <*> = <*>,1
+E55,<*> Transitioned from NEW to INITED,1
+E68,"MRAppMaster launching normal, non-uberized, multi-container job <*>.",1
+E110,Using callQueue class java.util.concurrent.LinkedBlockingQueue,2
+E98,Starting Socket Reader #<*> for port <*>,2
+E9,Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server,1
+E49,Instantiated MRClientService at MININT-<*>/<*>:<*>,1
+E51,IPC Server Responder: starting,2
+E50,IPC Server listener on <*>: starting,2
+E64,Logging to <*>(org.mortbay.log) via <*>,1
+E47,Http request log for http.requests.mapreduce is not defined,1
+E5,Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),1
+E3,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce,1
+E4,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static,1
+E8,adding path spec: <*>,2
+E52,Jetty bound to port <*>,1
+E53,jetty-<*>,1
+E43,Extract jar:file:<*> to <*>,1
+E97,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>,1
+E113,Web app <*> started at <*>,1
+E88,Registered webapp guice modules,1
+E57,JOB_CREATE <*>,1
+E70,nodeBlacklistingEnabled:<*>,1
+E67,maxTaskFailuresPerNode is <*>,1
+E25,blacklistDisablePercent is <*>,1
+E27,Connecting to ResourceManager at <*>/<*>:<*>,1
+E66,"maxContainerCapability: <memory:<*>, vCores:<*>",1
+E82,queue: default,1
+E109,Upper limit on the thread pool size is <*>,1
+E114,yarn.client.max-cached-nodemanagers-proxies : <*>,1
+E54,<*> Transitioned from INITED to SETUP,1
+E78,Processing the event EventType: JOB_SETUP,1
+E56,<*> Transitioned from SETUP to RUNNING,1
+E90,Resolved <*> to <*>,39
+E102,<*> Task Transitioned from NEW to SCHEDULED,11
+E17,<*> TaskAttempt Transitioned from NEW to UNASSIGNED,14
+E65,"mapResourceRequest:<memory:<*>, vCores:<*>",1
+E41,"Event Writer setup for JobId: <*>, File: hdfs://<*>",1
+E87,"reduceResourceRequest:<memory:<*>, vCores:<*>",1
+E24,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,5
+E45,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",12
+E83,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",131
+E85,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,130
+E46,Got allocated containers <*>,10
+E13,Assigned container <*> to <*>,10
+E11,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,12
+E107,The job-jar file on the remote FS is hdfs://<*>,1
+E106,The job-conf file on the remote FS is <*>,1
+E6,Adding #<*> tokens and #<*> secret keys for NM use for launching container,1
+E95,Size of containertokens_dob is <*>,1
+E81,Putting shuffle token in serviceData,1
+E21,<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,10
+E77,Processing the event EventType: <*> for container <*> taskAttempt <*>,13
+E62,Launching <*>,10
+E74,Opening proxy : <*>:<*>,13
+E94,Shuffle port returned by ContainerManager for <*> : <*>,10
+E105,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>],10
+E14,<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,10
+E22,ATTEMPT_START <*>,10
+E104,<*> Task Transitioned from SCHEDULED to RUNNING,10
+E23,Auth successful for <*> (auth:SIMPLE),10
+E58,JVM with ID : <*> asked for a task,10
+E59,JVM with ID: <*> given task: <*>,10
+E80,Progress of TaskAttempt <*> is : <*>,289
+E26,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>:<*>, NodeHttpAddress: <*>:<*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>",1
+E84,Received completed container <*>,2
+E28,Container complete event for unknown container id <*>,1
+E36,Done acknowledgement from <*>,1
+E19,<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,1
+E60,KILLING <*>,3
+E20,<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,1
+E100,Task succeeded with attempt <*>,1
+E103,<*> Task Transitioned from RUNNING to SUCCEEDED,1
+E72,Num completed Tasks: <*>,1
+E86,Reduce slow start threshold reached. Scheduling reduces.,1
+E12,All maps assigned. Ramping up all remaining reduces:<*>,1
+E32,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,1
+E112,We launched <*> speculations. Sleeping <*> milliseconds.,1
+E93,Scheduling a redundant attempt for task <*>,1
+E34,Diagnostics report from <*>: Container killed by the ApplicationMaster.,1
+E10,Address change detected. Old: <*>/<*>:<*> New: <*>:<*>,476
+E44,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,326
+E96,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>:<*>, <*>:<*>]",1
+E33,DFSOutputStream ResponseProcessor exception for block BP-<*>:<*>,1
+E39,"Error Recovery for block BP-<*>:<*> in pipeline <*>:<*>, <*>:<*>: bad datanode <*>:<*>",1
+E30,DataStreamer Exception,1
+E38,ERROR IN CONTACTING RM.,147
+E91,"Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",146
+E101,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2
+E35,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,4
+E18,<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP,2
+E15,<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP,2
+E79,Processing the event EventType: TASK_ABORT,2
+E99,Task cleanup failed for attempt <*>,2
+E16,<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,2
+E40,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>,1
+E108,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception.",1
+E1,<*> failures on node MININT-<*>,2
+E2,Added <*> to list of failed maps,2

@@ -1,0 +1,32 @@
+{"query": "HCI daemon ver 2.4 started", "answer": "HCI daemon ver {variables} started"}
+{"query": "usbcore: registered new driver hub", "answer": "usbcore: registered new driver hub"}
+{"query": "session closed for user test", "answer": "session closed for user {variables}"}
+{"query": "CPU: Intel Pentium III (Coppermine) stepping 06", "answer": "CPU: Intel Pentium III (Coppermine) stepping {variables}"}
+{"query": "Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)", "answer": "Memory: {variables} available ({variables} kernel code, {variables} reserved, {variables} data, {variables} init, {variables} highmem)"}
+{"query": "rpc.idmapd startup succeeded", "answer": "rpc.idmapd startup succeeded"}
+{"query": "Intel machine check architecture supported.", "answer": "Intel machine check architecture supported."}
+{"query": "VFS: Disk quotas dquot_6.5.1", "answer": "VFS: Disk quotas {variables}"}
+{"query": "Linux Plug and Play Support v0.97 (c) Adam Belay", "answer": "Linux Plug and Play Support {variables} (c) Adam Belay"}
+{"query": "Calibrating delay loop... 1445.88 BogoMIPS", "answer": "Calibrating delay loop... {variables} BogoMIPS"}
+{"query": "PID hash table entries: 512 (order 9: 4096 bytes)", "answer": "PID hash table entries: {variables} (order {variables}: {variables} bytes)"}
+{"query": "Failure registering capabilities with the kernel", "answer": "Failure registering capabilities with the kernel"}
+{"query": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202-132-40-29.adsl.ttn.net user=root", "answer": "authentication failure; logname= uid={variables} euid={variables} tty=NODEVssh ruser= rhost={variables} user={variables}"}
+{"query": "Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort", "answer": "Authentication failed from {variables} ({variables}): Software caused connection abort"}
+{"query": "ANONYMOUS FTP LOGIN FROM 84.102.20.2, (anonymous)", "answer": "ANONYMOUS FTP LOGIN FROM {variables}, (anonymous)"}
+{"query": "Received SNMP packet(s) from 67.170.148.126", "answer": "Received SNMP packet(s) from {variables}"}
+{"query": "DMI 2.3 present.", "answer": "DMI {variables} present."}
+{"query": "ACPI: Interpreter disabled.", "answer": "ACPI: Interpreter disabled."}
+{"query": "warning: can't get client address: Connection reset by peer", "answer": "warning: can't get client address: Connection reset by peer"}
+{"query": "SELinux: Starting in permissive mode", "answer": "SELinux: Starting in permissive mode"}
+{"query": "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004", "answer": "Linux version {variables} (bhcompile@bugs.build.redhat.com) (gcc version {variables} (Red Hat Linux {variables})) #{variables} {variables}:{variables}:{variables} EDT {variables}"}
+{"query": "klogd 1.4.1, log source = /proc/kmsg started.", "answer": "klogd {variables}, log source = {variables} started."}
+{"query": "NET: Registered protocol family 16", "answer": "NET: Registered protocol family {variables}"}
+{"query": "Enabling unmasked SIMD FPU exception support... done.", "answer": "Enabling unmasked SIMD FPU exception support... done."}
+{"query": "BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)", "answer": "BIOS-e820: {variables} - {variables} (reserved)"}
+{"query": "session opened for user cyrus by (uid=0)", "answer": "session opened for user {variables} by (uid={variables})"}
+{"query": "Kerberos authentication failed", "answer": "Kerberos authentication failed"}
+{"query": "check pass; user unknown", "answer": "check pass; user unknown"}
+{"query": "cupsd shutdown succeeded", "answer": "cupsd shutdown succeeded"}
+{"query": "sdpd v1.5 started", "answer": "sdpd {variables} started"}
+{"query": "portmap startup succeeded", "answer": "portmap startup succeeded"}
+{"query": "PCI: Probing PCI hardware (bus 00)", "answer": "PCI: Probing PCI hardware (bus {variables})"}

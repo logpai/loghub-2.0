@@ -1,0 +1,32 @@
+{"query": "Have smaller server identifier, so dropping the connection: (2, 1)", "answer": "Have smaller server identifier, so dropping the connection: ({variables}, {variables})"}
+{"query": "Processed session termination for sessionid: 0x34ee30a5c53000a", "answer": "Processed session termination for sessionid: {variables}"}
+{"query": "Expiring session 0x14f3fdae8ba000c, timeout of 10000ms exceeded", "answer": "Expiring session {variables}, timeout of {variables} exceeded"}
+{"query": "Getting a snapshot from leader", "answer": "Getting a snapshot from leader"}
+{"query": "Connection broken for id 188978561024, my id = 2, error =", "answer": "Connection broken for id {variables}, my id = {variables}, error ="}
+{"query": "FOLLOWING - LEADER ELECTION TOOK - 238", "answer": "FOLLOWING - LEADER ELECTION TOOK - {variables}"}
+{"query": "Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4", "answer": "Follower sid: {variables} : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@{variables}"}
+{"query": "Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LEADING (my state)", "answer": "Notification: {variables} (n.leader), {variables} (n.zxid), {variables} (n.round), LOOKING (n.state), {variables} (n.sid), {variables} (n.peerEPoch), LEADING (my state)"}
+{"query": "Client attempting to establish new session at /10.10.34.11:40061", "answer": "Client attempting to establish new session at {variables}:{variables}"}
+{"query": "Closed socket connection for client /10.10.34.12:45542 which had sessionid 0x14ed93111f20002", "answer": "Closed socket connection for client {variables}:{variables} which had sessionid {variables}"}
+{"query": "Server environment:os.name=Linux", "answer": "Server environment:{variables}"}
+{"query": "Interrupting SendWorker", "answer": "Interrupting SendWorker"}
+{"query": "First is 0x0", "answer": "First is {variables}"}
+{"query": "tickTime set to 2000", "answer": "tickTime set to {variables}"}
+{"query": "Snapshotting: 0x300000dcd to /var/lib/zookeeper/version-2/snapshot.300000dcd", "answer": "Snapshotting: {variables} to {variables}"}
+{"query": "Send worker leaving thread", "answer": "Send worker leaving thread"}
+{"query": "minSessionTimeout set to -1", "answer": "minSessionTimeout set to {variables}"}
+{"query": "Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT", "answer": "Server environment:{variables}"}
+{"query": "autopurge.snapRetainCount set to 3", "answer": "autopurge.snapRetainCount set to {variables}"}
+{"query": "******* GOODBYE /10.10.34.12:59103 ********", "answer": "******* GOODBYE {variables}:{variables} ********"}
+{"query": "Interrupted while waiting for message on queue", "answer": "Interrupted while waiting for message on queue"}
+{"query": "Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000", "answer": "Have quorum of supporters; starting up and setting last processed zxid: {variables}"}
+{"query": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "answer": "Got user-level KeeperException when processing sessionid:{variables} type:create cxid:{variables} zxid:{variables} txntype:{variables} reqpath:{variables} Error Path:{variables} Error:KeeperErrorCode = NodeExists for {variables}"}
+{"query": "caught end of stream exception", "answer": "caught end of stream exception"}
+{"query": "Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running", "answer": "Exception causing close of session {variables} due to java.io.IOException: ZooKeeperServer not running"}
+{"query": "Established session 0x14ed93111f2007c with negotiated timeout 10000 for client /10.10.34.11:50276", "answer": "Established session {variables} with negotiated timeout {variables} for client {variables}:{variables}"}
+{"query": "Accepted socket connection from /10.10.34.13:50180", "answer": "Accepted socket connection from {variables}:{variables}"}
+{"query": "Sending DIFF", "answer": "Sending DIFF"}
+{"query": "Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre", "answer": "Server environment:{variables}"}
+{"query": "Server environment:host.name=mesos-master-1", "answer": "Server environment:{variables}"}
+{"query": "Revalidating client: 0x14f05578bd80013", "answer": "Revalidating client: {variables}"}
+{"query": "Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar", "answer": "Server environment:{variables}"}

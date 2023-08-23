@@ -1,0 +1,32 @@
+{"query": "data address space................0", "answer": "data address space................{variables}"}
+{"query": "ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, 361544528 > 266076160", "answer": "ciod: Error loading {variables}: program image too big, {variables} > {variables}"}
+{"query": "PrepareForService shutting down NodeCard(mLctn(R25-M1-N2), mCardSernum(203231503833343000000000594c31304b34333431303158), mLp(FF:F2:9F:16:CF:0F:00:0D:60:E9:30:F0), mIp(10.2.2.80), mType(4)) as part of Service Action 310", "answer": "PrepareForService shutting down NodeCard(mLctn({variables}), mCardSernum({variables}), mLp({variables}), mIp({variables}), mType({variables})) as part of Service Action {variables}"}
+{"query": "critical input interrupt (unit=0x0b bit=0x17): warning for tree C1 wire, suppressing further interrupts of same type", "answer": "critical input interrupt (unit={variables} bit={variables}): warning for tree C1 wire, suppressing further interrupts of same type"}
+{"query": "ciod: pollControlDescriptors: Detected the debugger died.", "answer": "ciod: pollControlDescriptors: Detected the debugger died."}
+{"query": "wait state enable.................0", "answer": "wait state enable.................{variables}"}
+{"query": "program interrupt: trap instruction.........0", "answer": "program interrupt: trap instruction.........{variables}"}
+{"query": "ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff", "answer": "ciod: cpu {variables} at treeaddr {variables} sent unrecognized message {variables}"}
+{"query": "critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire, suppressing further interrupts of same type", "answer": "critical input interrupt (unit={variables} bit={variables}): warning for torus z+ wire, suppressing further interrupts of same type"}
+{"query": "ciod: Message code 0 is not 51 or 4294967295", "answer": "ciod: Message code {variables} is not {variables} or {variables}"}
+{"query": "program interrupt: illegal instruction......1", "answer": "program interrupt: illegal instruction......{variables}"}
+{"query": "critical input interrupt (unit=0x0b bit=0x0b): warning for torus z- wire", "answer": "critical input interrupt (unit={variables} bit={variables}): warning for torus z- wire"}
+{"query": "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:55929, Link has been severed", "answer": "ciod: Error reading message prefix on CioStream socket to {variables}:{variables}, Link has been severed"}
+{"query": "CE sym 14, at 0x17086be0, mask 0x02", "answer": "CE sym {variables}, at {variables}, mask {variables}"}
+{"query": "program interrupt: fp cr field .............0", "answer": "program interrupt: fp cr field .............{variables}"}
+{"query": "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015", "answer": "rts: kernel terminated for reason {variables}: bad message header: invalid cpu, type={variables}, cpu={variables}, index={variables}, total={variables}"}
+{"query": "shutdown complete", "answer": "shutdown complete"}
+{"query": "data address: 0x00000002", "answer": "data address: {variables}"}
+{"query": "Lustre mount FAILED : bglio78 : block_id : location", "answer": "Lustre mount FAILED : {variables} : block_id : location"}
+{"query": "floating point instr. enabled.....1", "answer": "floating point instr. enabled.....{variables}"}
+{"query": "data storage interrupt", "answer": "data storage interrupt"}
+{"query": "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007", "answer": "Error receiving packet on tree network, expecting type {variables} instead of type {variables} (softheader={variables} {variables} {variables} {variables}) PSR0={variables} PSR1={variables} PRXF={variables} PIXF={variables}"}
+{"query": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.", "answer": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The {variables} volt rail is OK. The {variables} volt rail is OK."}
+{"query": "ciod: In packet from node 91.0 (R62-M1-Nf-C:J03-U11), message code 2 is not 3 or 4294967295 (softheader=003b005b 00030000 00000001 00000000)", "answer": "ciod: In packet from node {variables} ({variables}), message code {variables} is not {variables} or {variables} (softheader={variables} {variables} {variables} {variables})"}
+{"query": "data store interrupt caused by icbi.........0", "answer": "data store interrupt caused by icbi.........{variables}"}
+{"query": "113982272 double-hummer alignment exceptions", "answer": "{variables} double-hummer alignment exceptions"}
+{"query": "floating pt ex mode 1 enable......0", "answer": "floating pt ex mode {variables} enable......{variables}"}
+{"query": "icache prefetch depth....................0", "answer": "icache prefetch depth....................{variables}"}
+{"query": "13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4562 seconds", "answer": "{variables} tree receiver {variables} in re-synch state event(s) (dcr {variables}) detected over {variables} seconds"}
+{"query": "ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM.460-1115: invalid or missing program image, Permission denied", "answer": "ciod: Error loading {variables}: invalid or missing program image, Permission denied"}
+{"query": "ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111", "answer": "ciod: generated {variables} core files for program {variables}"}
+{"query": "ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error", "answer": "ciod: LOGIN chdir({variables}) failed: Input/output error"}

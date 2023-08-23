@@ -1,0 +1,47 @@
+EventId,EventTemplate,Occurrences
+E13,Component State Change: Component <*> is in the unavailable state (HWID=<*>),12
+E8,clusterAddMember (command <*>),2
+E36,risBoot (command <*>),1
+E6,bootGenvmunix (command <*>),2
+E4,boot (command <*>),67
+E45,wait (command <*>),66
+E19,halt (command <*>),3
+E12,Command has completed successfully,10
+E42,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>,5
+E43,Targeting domains:node-<*> nodes:node-<*>,4
+E35,psu failure\ ambient=<*>,5
+E44,Temperature (<*>) exceeds warning threshold,2
+E10,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,32
+E27,NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0,2
+E39,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,1
+E17,Fan speeds ( <*> <*> <*> **** <*> <*> ),79
+E18,Fan speeds ( <*> <*> <*> <*> <*> <*> ),11
+E11,Command has been aborted,1
+E34,power/control problem,1
+E21,Link error,13
+E24,Link in reset,9
+E25,Link ok,13
+E22,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>,4
+E40,ServerFileSystem: ServerFileSystem domain <*> is full,12
+E9,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>,36
+E38,running,162
+E3,blocked,15
+E32,not responding,60
+E14,configured out,91
+E20,inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>,4
+E1,active,5
+E33,not-responding,1
+E41,starting,1
+E7,closing,1
+E31,normal,206
+E46,warning,205
+E2,ambient=<*>,292
+E15,critical,20
+E26,Linkerror event interval expired,394
+E37,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+E5,boot (command <*>) Error: HALT asserted\ cannot continue,1
+E16,Failed subcommands <*>,1
+E23,link errors remain current,56
+E29,NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0,45
+E28,NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0,44
+E30,NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0,2

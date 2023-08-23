@@ -1,0 +1,27 @@
+EventId,EventTemplate,Occurrences
+E27,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+E13,Invalid user <*> from <*>,113
+E12,input_userauth_request: invalid user <*> [preauth],113
+E21,pam_unix(sshd:auth): check pass; user unknown,135
+E19,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,110
+E10,Failed password for invalid user <*> from <*> port <*> ssh2,135
+E2,Connection closed by <*> [preauth],34
+E24,Received disconnect from <*>: <*>: Bye Bye [preauth],413
+E20,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,384
+E9,Failed password for <*> from <*> port <*> ssh2,383
+E14,message repeated <*> times: [ Failed password for <*> from <*> port <*>],2
+E4,Disconnecting: Too many authentication failures for <*> [preauth],3
+E17,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,2
+E18,PAM service(sshd) ignoring max retries; <*> > <*>,7
+E3,Did not receive identification string from <*>,10
+E6,error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth],2
+E25,Received disconnect from <*>: <*>: Closed due to user request. [preauth],7
+E8,Failed none for invalid user <*> from <*> port <*> ssh2,4
+E16,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,6
+E15,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,2
+E7,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],45
+E1,Accepted password for <*> from <*> port <*> ssh2,1
+E23,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+E26,Received disconnect from <*>: <*>: disconnected by user,1
+E22,pam_unix(sshd:session): session closed for user <*>,1
+E11,fatal: Write failed: Connection reset by peer [preauth],1

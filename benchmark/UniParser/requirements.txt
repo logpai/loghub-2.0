@@ -1,0 +1,11 @@
+numpy==1.22.0
+matplotlib
+gensim==3.8.0
+spacy==2.0.16
+torch==1.7.1
+torchtext==0.6.0
+pytorch-crf==0.7.2
+scikit-learn
+regex==2022.3.2
+pandas
+argparse

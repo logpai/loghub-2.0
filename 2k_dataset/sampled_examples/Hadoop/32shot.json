@@ -1,0 +1,32 @@
+{"query": "Scheduled snapshot period at 10 second(s).", "answer": "Scheduled snapshot period at {variables} second(s)."}
+{"query": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "answer": "Using callQueue class java.util.concurrent.LinkedBlockingQueue"}
+{"query": "Upper limit on the thread pool size is 500", "answer": "Upper limit on the thread pool size is {variables}"}
+{"query": "Thread Thread[eventHandlingThread,5,main] threw an Exception.", "answer": "Thread Thread[eventHandlingThread,{variables},main] threw an Exception."}
+{"query": "Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;", "answer": "Not uberizing {variables} because: not enabled; too many maps; too much input;"}
+{"query": "Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog", "answer": "Logging to {variables}(org.mortbay.log) via {variables}"}
+{"query": "All maps assigned. Ramping up all remaining reduces:1", "answer": "All maps assigned. Ramping up all remaining reduces:{variables}"}
+{"query": "Emitting job history data to the timeline server is not enabled", "answer": "Emitting job history data to the timeline server is not enabled"}
+{"query": "Web app /mapreduce started at 62267", "answer": "Web app {variables} started at {variables}"}
+{"query": "blacklistDisablePercent is 33", "answer": "blacklistDisablePercent is {variables}"}
+{"query": "reduceResourceRequest:<memory:1024, vCores:1>", "answer": "reduceResourceRequest:<memory:{variables}, vCores:{variables}"}
+{"query": "Registered webapp guice modules", "answer": "Registered webapp guice modules"}
+{"query": "maxTaskFailuresPerNode is 3", "answer": "maxTaskFailuresPerNode is {variables}"}
+{"query": "Putting shuffle token in serviceData", "answer": "Putting shuffle token in serviceData"}
+{"query": "Starting Socket Reader #1 for port 62260", "answer": "Starting Socket Reader #{variables} for port {variables}"}
+{"query": "Executing with tokens:", "answer": "Executing with tokens:"}
+{"query": "Diagnostics report from attempt_1445144423722_0020_m_000003_0: Container killed by the ApplicationMaster.", "answer": "Diagnostics report from {variables}: Container killed by the ApplicationMaster."}
+{"query": "Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000003_0 : 13562", "answer": "Shuffle port returned by ContainerManager for {variables} : {variables}"}
+{"query": "DataStreamer Exception", "answer": "DataStreamer Exception"}
+{"query": "Adding #0 tokens and #1 secret keys for NM use for launching container", "answer": "Adding #{variables} tokens and #{variables} secret keys for NM use for launching container"}
+{"query": "TaskAttempt: [attempt_1445144423722_0020_m_000005_0] using containerId: [container_1445144423722_0020_01_000007 on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109]", "answer": "TaskAttempt: [{variables}] using containerId: [{variables} on NM: [{variables}:{variables}]"}
+{"query": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "answer": "Address change detected. Old: {variables}/{variables}:{variables} New: {variables}:{variables}"}
+{"query": "Jetty bound to port 62267", "answer": "Jetty bound to port {variables}"}
+{"query": "maxContainerCapability: <memory:8192, vCores:32>", "answer": "maxContainerCapability: <memory:{variables}, vCores:{variables}"}
+{"query": "attempt_1445144423722_0020_m_000001_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED", "answer": "{variables} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED"}
+{"query": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "answer": "Reduce slow start threshold not met. completedMapsForReduceSlowstart {variables}"}
+{"query": "job_1445144423722_0020Job Transitioned from SETUP to RUNNING", "answer": "{variables} Transitioned from SETUP to RUNNING"}
+{"query": "We launched 1 speculations. Sleeping 15000 milliseconds.", "answer": "We launched {variables} speculations. Sleeping {variables} milliseconds."}
+{"query": "Received completed container container_1445144423722_0020_01_000012", "answer": "Received completed container {variables}"}
+{"query": "Task cleanup failed for attempt attempt_1445144423722_0020_m_000001_0", "answer": "Task cleanup failed for attempt {variables}"}
+{"query": "Recalculating schedule, headroom=<memory:3072, vCores:-24>", "answer": "Recalculating schedule, headroom=<memory:{variables}, vCores:{variables}"}
+{"query": "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp", "answer": "Extract jar:file:{variables} to {variables}"}

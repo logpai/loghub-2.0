@@ -1,0 +1,32 @@
+{"query": "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>", "answer": "inconsistent nodesets node-{variables} {variables} <ok> node-{variables} {variables} <ok> node-{variables} {variables} <ok> node-{variables} {variables} {variables}"}
+{"query": "Command has completed successfully", "answer": "Command has completed successfully"}
+{"query": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "answer": "Component State Change: Component {variables} is in the unavailable state (HWID={variables})"}
+{"query": "Link error on broadcast tree Interconnect-0T00:00:2:1", "answer": "Link error on broadcast tree Interconnect-{variables}:{variables}:{variables}:{variables}"}
+{"query": "boot (command 2092) Error: HALT asserted\\ cannot continue", "answer": "boot (command {variables}) Error: HALT asserted\\ cannot continue"}
+{"query": "Temperature (41C) exceeds warning threshold", "answer": "Temperature ({variables}) exceeds warning threshold"}
+{"query": "Link error", "answer": "Link error"}
+{"query": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1432", "answer": "ClusterFileSystem: There is no server for ServerFileSystem domain {variables}"}
+{"query": "halt (command 1982)", "answer": "halt (command {variables})"}
+{"query": "NIFF: node node-187 has detected an available network connection on network 5.5.224.0 via interface alt0", "answer": "NIFF: node node-{variables} has detected an available network connection on network {variables} via interface alt0"}
+{"query": "ServerFileSystem: An ServerFileSystem domain panic has occurred on storage442", "answer": "ServerFileSystem: An ServerFileSystem domain panic has occurred on {variables}"}
+{"query": "NIFF: node node-69 detected a failed network connection on network 5.5.224.0 via interface alt0", "answer": "NIFF: node node-{variables} detected a failed network connection on network {variables} via interface alt0"}
+{"query": "clusterAddMember (command 1902)", "answer": "clusterAddMember (command {variables})"}
+{"query": "ClusterFileSystem: ServerFileSystem domain storage534 is no longer served by node node-18", "answer": "ClusterFileSystem: ServerFileSystem domain {variables} is no longer served by node node-{variables}"}
+{"query": "wait (command 3609)", "answer": "wait (command {variables})"}
+{"query": "Link in reset", "answer": "Link in reset"}
+{"query": "Targeting domains:node-D[0\\ 5] and nodes:node-[27\\ 191]", "answer": "Targeting domains:node-{variables} nodes:node-{variables}"}
+{"query": "Failed subcommands 3406", "answer": "Failed subcommands {variables}"}
+{"query": "ServerFileSystem: ServerFileSystem domain root13_local is full", "answer": "ServerFileSystem: ServerFileSystem domain {variables} is full"}
+{"query": "Linkerror event interval expired", "answer": "Linkerror event interval expired"}
+{"query": "Command has been aborted", "answer": "Command has been aborted"}
+{"query": "not responding", "answer": "not responding"}
+{"query": "risBoot (command 1903)", "answer": "risBoot (command {variables})"}
+{"query": "boot (command 1967)", "answer": "boot (command {variables})"}
+{"query": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "answer": "Fan speeds ( {variables} {variables} {variables} **** {variables} {variables} )"}
+{"query": "Targeting domains:node-D0 and nodes:node-[8-31] child of command 2489", "answer": "Targeting domains:node-{variables} and nodes:node-[{variables}-{variables}] child of command {variables}"}
+{"query": "bootGenvmunix (command 1903)", "answer": "bootGenvmunix (command {variables})"}
+{"query": "link errors remain current", "answer": "link errors remain current"}
+{"query": "configured out", "answer": "configured out"}
+{"query": "psu failure\\ ambient=31", "answer": "psu failure\\ ambient={variables}"}
+{"query": "risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "answer": "risBoot (command {variables}) Error: Timed out while waiting for SRM prompt: <ABORT code completed>"}
+{"query": "ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-96", "answer": "ClusterFileSystem: ServerFileSystem domain {variables} is no longer served by node node-{variables}"}

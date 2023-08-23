@@ -1,0 +1,51 @@
+EventId,EventTemplate,Occurrences
+E31,Notification time out: <*>,37
+E40,Received connection request <*>:<*>,299
+E42,Send worker leaving thread,262
+E24,Interrupted while waiting for message on queue,314
+E11,"Connection broken for id <*>, my id = <*>, error =",291
+E25,Interrupting SendWorker,266
+E10,Closed socket connection for client <*>:<*> which had sessionid <*>,44
+E6,caught end of stream exception,37
+E8,Client attempting to renew session <*> at <*>:<*>,3
+E7,Client attempting to establish new session at <*>:<*>,41
+E13,Established session <*> with negotiated timeout <*> for client <*>:<*>,50
+E2,Accepted socket connection from <*>:<*>,48
+E50,Unexpected Exception:,1
+E12,Connection request from old client <*>:<*>; will be dropped if server is in r-o mode,39
+E44,Server environment:<*>,11
+E5,Cannot open channel to <*> at election address <*>:<*>,86
+E38,Processed session termination for sessionid: <*>,47
+E15,"Expiring session <*>, timeout of <*> exceeded",40
+E1,******* GOODBYE <*>:<*> ********,19
+E26,LOOKING,4
+E29,My election bind port: <*>/<*>:<*>,1
+E23,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",1
+E18,FOLLOWING,2
+E30,"New election. My id = <*>, proposed zxid=<*>",1
+E19,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+E34,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",1
+E4,autopurge.snapRetainCount set to <*>,1
+E41,Revalidating client: <*>,3
+E9,Closed socket connection for client <*>:<*> (no session established for client),4
+E14,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,3
+E37,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",5
+E35,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+E48,tickTime set to <*>,1
+E49,Unexpected exception causing shutdown while sock still open,12
+E21,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>,1
+E36,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",3
+E47,Starting quorum peer,1
+E46,Snapshotting: <*> to <*>,2
+E3,autopurge.purgeInterval set to <*>,3
+E17,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>,1
+E27,maxSessionTimeout set to <*>,1
+E22,Have quorum of supporters; starting up and setting last processed zxid: <*>,1
+E33,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)",1
+E45,shutdown of request processor complete,1
+E16,First is <*>,1
+E39,Reading snapshot <*>,1
+E43,Sending DIFF,1
+E20,Getting a snapshot from leader,2
+E32,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+E28,minSessionTimeout set to <*>,2

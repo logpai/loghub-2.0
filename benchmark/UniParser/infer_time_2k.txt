@@ -1,0 +1,28 @@
+UniParser: Apache3.940616
+UniParser: BGL1.987045
+UniParser: HDFS4.451768
+UniParser: HPC1.278403
+UniParser: Hadoop4.721634
+UniParser: HealthApp1.466679
+UniParser: Linux4.221266
+UniParser: Mac2.967115
+UniParser: OpenSSH4.271642
+UniParser: OpenStack2.565459
+UniParser: Proxifier4.826441
+UniParser: Spark3.063399
+UniParser: Thunderbird4.324398
+UniParser: Zookeeper4.178059
+UniParser: Apache 1.202531
+UniParser: BGL 0.967153
+UniParser: HDFS 1.302212
+UniParser: HPC 0.505953
+UniParser: Hadoop 1.511147
+UniParser: HealthApp 0.705004
+UniParser: Linux 1.146942
+UniParser: Mac 2.165614
+UniParser: OpenSSH 1.342340
+UniParser: OpenStack 1.733580
+UniParser: Proxifier 1.516318
+UniParser: Spark 1.368222
+UniParser: Thunderbird 1.301101
+UniParser: Zookeeper 1.197054

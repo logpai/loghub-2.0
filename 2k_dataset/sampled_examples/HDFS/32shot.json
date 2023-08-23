@@ -1,0 +1,32 @@
+{"query": "PacketResponder 0 for block blk_5018765878120211503 terminating", "answer": "PacketResponder {variables} for block {variables} terminating"}
+{"query": "PacketResponder 2 for block blk_-2896670847306153652 terminating", "answer": "PacketResponder {variables} for block {variables} terminating"}
+{"query": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.91.84:50010 is added to blk_6039898256291822367 size 67108864", "answer": "BLOCK* NameSystem.addStoredBlock: blockMap updated: {variables}:{variables} is added to {variables} size {variables}"}
+{"query": "Received block blk_8772892713521115147 of size 67108864 from /10.251.194.245", "answer": "Received block {variables} of size {variables} from {variables}"}
+{"query": "Receiving block blk_8083872765147994327 src: /10.250.15.67:41990 dest: /10.250.15.67:50010", "answer": "Receiving block {variables} src: {variables}:{variables} dest: {variables}:{variables}"}
+{"query": "Receiving block blk_-2506231977021079951 src: /10.251.31.160:57634 dest: /10.251.31.160:50010", "answer": "Receiving block {variables} src: {variables}:{variables} dest: {variables}:{variables}"}
+{"query": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_001840_0/part-01840. blk_4210124392039605712", "answer": "BLOCK* NameSystem.allocateBlock: {variables} {variables}"}
+{"query": "Received block blk_-1592043549272047369 of size 67108864 from /10.251.105.189", "answer": "Received block {variables} of size {variables} from {variables}"}
+{"query": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.199.159:50010 is added to blk_-4455205822455130625 size 67108864", "answer": "BLOCK* NameSystem.addStoredBlock: blockMap updated: {variables}:{variables} is added to {variables} size {variables}"}
+{"query": "Verification succeeded for blk_-7803343374223161433", "answer": "Verification succeeded for {variables}"}
+{"query": "Deleting block blk_6695517786834913217 file /mnt/hadoop/dfs/data/current/subdir15/blk_6695517786834913217", "answer": "Deleting block {variables} file {variables}"}
+{"query": "10.251.71.68:50010 Served block blk_-2794533871450434534 to /10.251.199.150", "answer": "{variables}:{variables} Served block {variables} to {variables}"}
+{"query": "10.251.71.146:50010 Served block blk_8482111101480751895 to /10.251.71.146", "answer": "{variables}:{variables} Served block {variables} to {variables}"}
+{"query": "10.251.67.225:50010:Got exception while serving blk_-6900989714336081087 to /10.251.25.237:", "answer": "{variables}:{variables}:Got exception while serving {variables} to {variables}:"}
+{"query": "10.251.38.214:50010:Got exception while serving blk_5547569777499890340 to /10.251.195.52:", "answer": "{variables}:{variables}:Got exception while serving {variables} to {variables}:"}
+{"query": "Verification succeeded for blk_2904134648927436267", "answer": "Verification succeeded for {variables}"}
+{"query": "BLOCK* NameSystem.delete: blk_4640277741339926850 is added to invalidSet of 10.251.26.131:50010", "answer": "BLOCK* NameSystem.delete: {variables} is added to invalidSet of {variables}:{variables}"}
+{"query": "BLOCK* NameSystem.delete: blk_-4269939382058952254 is added to invalidSet of 10.251.203.129:50010", "answer": "BLOCK* NameSystem.delete: {variables} is added to invalidSet of {variables}:{variables}"}
+{"query": "Deleting block blk_-1368324087589035770 file /mnt/hadoop/dfs/data/current/blk_-1368324087589035770", "answer": "Deleting block {variables} file {variables}"}
+{"query": "10.250.15.198:50010 Starting thread to transfer block blk_4292382298896622412 to 10.250.15.240:50010", "answer": "{variables}:{variables} Starting thread to transfer block {variables} to {variables}:{variables}"}
+{"query": "BLOCK* ask 10.251.126.5:50010 to delete blk_-9016567407076718172 blk_-8695715290502978219 blk_-7168328752988473716 blk_-4355192005224403537 blk_-3757501769775889193 blk_-154600013573668394 blk_167132135416677587 blk_2654596473569751784 blk_5202581916713319258", "answer": "BLOCK* ask {variables}:{variables} to delete {variables}"}
+{"query": "BLOCK* ask 10.251.122.79:50010 to delete blk_8048594464172649365", "answer": "BLOCK* ask {variables}:{variables} to delete {variables}"}
+{"query": "Received block blk_-4411589101766563890 src: /10.250.14.38:37362 dest: /10.250.14.38:50010 of size 67108864", "answer": "Received block {variables} src: {variables}:{variables} dest: {variables}:{variables} of size {variables}"}
+{"query": "BLOCK* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010", "answer": "BLOCK* ask {variables}:{variables} to replicate {variables} to datanode(s) {variables}:{variables}"}
+{"query": "Received block blk_1473949624670719319 src: /10.251.29.239:35617 dest: /10.251.29.239:50010 of size 67108864", "answer": "Received block {variables} src: {variables}:{variables} dest: {variables}:{variables} of size {variables}"}
+{"query": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.66.102:50010 is added to blk_-5009274684359267777 size 67108864", "answer": "BLOCK* NameSystem.addStoredBlock: blockMap updated: {variables}:{variables} is added to {variables} size {variables}"}
+{"query": "BLOCK* ask 10.251.122.79:50010 to delete blk_8048594464172649365", "answer": "BLOCK* ask {variables}:{variables} to delete {variables}"}
+{"query": "Received block blk_-7056746602297676104 of size 67108864 from /10.251.39.209", "answer": "Received block {variables} of size {variables} from {variables}"}
+{"query": "Deleting block blk_-5598693099021996971 file /mnt/hadoop/dfs/data/current/subdir19/blk_-5598693099021996971", "answer": "Deleting block {variables} file {variables}"}
+{"query": "10.251.106.10:50010 Served block blk_2273334621242106674 to /10.251.106.10", "answer": "{variables}:{variables} Served block {variables} to {variables}"}
+{"query": "10.251.39.179:50010:Got exception while serving blk_1683075246463470765 to /10.250.14.38:", "answer": "{variables}:{variables}:Got exception while serving {variables} to {variables}:"}
+{"query": "10.251.90.239:50010:Got exception while serving blk_-8679916835272129336 to /10.250.15.198:", "answer": "{variables}:{variables}:Got exception while serving {variables} to {variables}:"}
