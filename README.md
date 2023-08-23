@@ -5,6 +5,7 @@ LogPub is a collection of large-scale annotated datasets for log parsing based o
 Based on LogPub, we propose a more comprehensive benchmark of log parsers. The detailed evaluation results could be found at [RQ_experiments](RQs_experiments/README.md) 🔗.
 
 If you use our benchmark or datasets for research, please kindly cite the following paper:
+
 Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R.lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
 
 ## Datasets Characteristics
