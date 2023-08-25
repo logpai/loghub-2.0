@@ -6,13 +6,13 @@ Based on LogPub, we propose a more comprehensive benchmark of log parsers. The d
 
 If you use our benchmark or datasets for research, please cite the following papers:
 
-Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R.lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
+- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R.lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
 
 In addition, if you use the souce code of our benchmark for research, please also cite the following two papers:
 
-Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. [Guidelines for Assessing the Accuracy of Log Message Template Identification Techniques.](https://dl.acm.org/doi/abs/10.1145/3510003.3510101) ICSE, 2022.
+- Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. [Guidelines for Assessing the Accuracy of Log Message Template Identification Techniques.](https://dl.acm.org/doi/abs/10.1145/3510003.3510101) ICSE, 2022.
 
-Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing.](https://arxiv.org/abs/1811.03509) ICSE, 2019.
+- Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing.](https://arxiv.org/abs/1811.03509) ICSE, 2019.
 
 ## Datasets Characteristics
 

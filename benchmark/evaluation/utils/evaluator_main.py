@@ -18,12 +18,10 @@ import time
 import csv
 import chardet
 from multiprocessing import Process
-from evaluation.utils.common import correct_templates_and_update_files
 from logparser.utils.evaluator import evaluate
 from evaluation.utils.template_level_analysis import evaluate_template_level, evaluate_template_level_lstm
 from evaluation.utils.PA_calculator import calculate_parsing_accuracy, calculate_parsing_accuracy_lstm
 import pandas as pd
-from .post_process import correct_single_template
 
 # TIMEOUT = 3600 * 12  # log template identification timeout (sec)
 TIMEOUT = 3600 * 12  # log template identification timeout (sec)
