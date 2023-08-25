@@ -4,8 +4,15 @@ LogPub is a collection of large-scale annotated datasets for log parsing based o
 
 Based on LogPub, we propose a more comprehensive benchmark of log parsers. The detailed evaluation results could be found at [RQ_experiments](RQs_experiments/README.md) 🔗.
 
-If you use our benchmark or datasets for research, please kindly cite the following paper:
+If you use our benchmark or datasets for research, please cite the following papers:
+
 Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R.lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
+
+Specifically, if you use our souce code of benchmark for research, please also cite the following two papers:
+
+Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. Guidelines for Assessing the Accuracy of  Log Message Template Identification Techniques. ICSE, 2022.
+
+Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. Tools and Benchmarks for Automated Log Parsing. ICSE, 2019.
 
 ## Datasets Characteristics
 
@@ -45,6 +52,7 @@ Then, you need to put these datasets into `full_dataset/` following the format o
 ```
 ├── 2k_dataset/ # the original Loghub-2k datasets
 ├── full_dataset/ # unzip the LogPub into this directory
+│   └── post_process.py # we provide the heuristic roles used in our annotation of templates 
 ├── benchmark/
 │   ├── evaluation/
 │   ├── logparser/
