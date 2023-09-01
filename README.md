@@ -6,7 +6,7 @@ Based on LogPub, we propose a more comprehensive benchmark of log parsers. The d
 
 If you use our benchmark or datasets for research, please cite the following papers:
 
-- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R.lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
+- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R. Lyu. [A Large-scale Benchmark for Log Parsing.](https://arxiv.org/abs/2308.10828) Arxiv, 2023. 
 
 In addition, if you use the souce code of our benchmark for research, please also cite the following two papers:
 
