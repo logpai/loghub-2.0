@@ -42,7 +42,7 @@ In addition, if you use the souce code of our benchmark for research, please als
 
 ## Datasets download
 
-Please first download the full datasets of LogPub via [Zenodo](). (Under organization, will be available ASAP.)
+Please first download the full datasets of LogPub via [Zenodo](https://zenodo.org/record/8275861).
 
 Then, you need to put these datasets into `full_dataset/` following the format of `2k_dataset`.
 
