@@ -76,7 +76,7 @@ if __name__ == "__main__":
             "weight_decay": 1e-2
 
         }
-        input_folder = os.path.join(f"{data_type}_annotations", log_file, "logpub_bin_random")
+        input_folder = os.path.join(f"{data_type}_annotations", log_file, "Loghub-2.0_bin_random")
         corpus = Corpus(
             input_folder=input_folder,
             min_word_freq=3,

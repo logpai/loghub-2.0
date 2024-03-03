@@ -40,9 +40,9 @@ conda activate LogPPT
 ./run_2k.sh
 ```
 
-### Run and evaluate LogPPT on LogPub
+### Run and evaluate LogPPT on Loghub-2.0
 
-Please notice you need to download the `full_dataset` of LogPub first.
+Please notice you need to download the `full_dataset` of Loghub-2.0 first.
 
 ```bash
 conda activate LogPPT

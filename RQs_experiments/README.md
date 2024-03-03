@@ -2,13 +2,13 @@
 
 Here is the part of the experiment results of our research questions.
 
-## RQ1: What are the differences between LogPub and Loghub-2k?
+## RQ1: What are the differences between Loghub-2.0 and Loghub-2k?
 
 [Differences of three selected datasets](RQ1/RQ1.png)
 
 [Differences of all datasets](RQ1/RQ1_all.png)
 
-## RQ2: How does the performance of log parsers differ when applied to LogPub compared to Loghub-2k?
+## RQ2: How does the performance of log parsers differ when applied to Loghub-2.0 compared to Loghub-2k?
 
 [Performance differences of log parsers](RQ2/RQ2.png)
 

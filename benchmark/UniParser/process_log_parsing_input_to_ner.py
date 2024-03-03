@@ -89,8 +89,8 @@ for dataset in datasets:
     print(f"{dataset}: {all_ner_labels}")
     print(f"{dataset} # pairs: {len(pairs)}")
     # write the pairs into files (ner labels)
-    write_ner_tsv_data(pairs, os.path.join(output_dir, 'logpub_parsing.txt'))
-    write_json(all_ner_labels, os.path.join(output_dir, "logpub_lables.json"))
+    write_ner_tsv_data(pairs, os.path.join(output_dir, 'Loghub-2.0_parsing.txt'))
+    write_json(all_ner_labels, os.path.join(output_dir, "Loghub-2.0_lables.json"))
 
     # write the pairs into files (Binary label)
     import random
@@ -98,11 +98,11 @@ for dataset in datasets:
     train = random.sample(list(range(len(pairs))), int(len(pairs) * 0.2))
     dev = random.sample([i for i in range(len(pairs)) if i not in train], int(len(pairs) * 0.2))
     test = [i for i in range(len(pairs)) if i not in train and i not in dev]
-    if not os.path.exists(os.path.join(output_dir, 'logpub_bin_random')):
-        os.makedirs(os.path.join(output_dir, 'logpub_bin_random'))
-    write_ner_tsv_data([pairs[i] for i in train], os.path.join(output_dir, 'logpub_bin_random', 'train.tsv'))
-    write_ner_tsv_data([pairs[i] for i in dev], os.path.join(output_dir, 'logpub_bin_random', 'val.tsv'))
-    write_ner_tsv_data([pairs[i] for i in test], os.path.join(output_dir, 'logpub_bin_random', 'test.tsv'))
+    if not os.path.exists(os.path.join(output_dir, 'Loghub-2.0_bin_random')):
+        os.makedirs(os.path.join(output_dir, 'Loghub-2.0_bin_random'))
+    write_ner_tsv_data([pairs[i] for i in train], os.path.join(output_dir, 'Loghub-2.0_bin_random', 'train.tsv'))
+    write_ner_tsv_data([pairs[i] for i in dev], os.path.join(output_dir, 'Loghub-2.0_bin_random', 'val.tsv'))
+    write_ner_tsv_data([pairs[i] for i in test], os.path.join(output_dir, 'Loghub-2.0_bin_random', 'test.tsv'))
 
 
 
