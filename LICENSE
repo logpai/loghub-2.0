@@ -1,21 +1,14 @@
-MIT License
+LICENSE OF LOGHUB-2.0
 
-Copyright (c) 2023 LOGPAI
+The datasets are freely available for research or academic work, subject to 
+the following condition: For any usage or distribution of the loghub-2.0 datasets,
+please refer to the loghub repository URL (https://github.com/logpai/loghub-2.0)
+and cite the following loghub papers where applicable.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
++ Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, 
+   Zhuangbin Chen, Jieming Zhu, Michael R. Lyu. A Large-scale Evaluation for 
+   Log Parsing Techniques: How Far are We? In ISSTA, 2024.
++ Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. Loghub: A Large 
+   Collection of System Log Datasets for AI-driven Log Analytics. In ISSRE, 2023.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The above license notice shall be included in all copies of the datasets.

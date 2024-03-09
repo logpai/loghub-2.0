@@ -4,15 +4,6 @@ Loghub-2.0 is a collection of large-scale annotated datasets for log parsing bas
 
 Based on Loghub-2.0, we propose a more comprehensive benchmark of log parsers. The detailed evaluation results could be found at [RQ_experiments](RQs_experiments/README.md) 🔗.
 
-If you use our benchmark or datasets for research, please cite the following papers:
-
-- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R. Lyu. [A Large-scale Evaluation for Log Parsing Techniques: How Far are We?](https://arxiv.org/abs/2308.10828) ISSTA, 2024. 
-
-In addition, if you use the souce code of our benchmark for research, please also cite the following two papers:
-
-- Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. [Guidelines for Assessing the Accuracy of Log Message Template Identification Techniques.](https://dl.acm.org/doi/abs/10.1145/3510003.3510101) ICSE, 2022.
-
-- Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing.](https://arxiv.org/abs/1811.03509) ICSE, 2019.
 
 ## Datasets Characteristics
 
@@ -128,10 +119,16 @@ cd benchmark/
   Since these methods are quite different with other log parsers, and they requires a GPU to support efficient parsing, we seperate their environments from other log parsers. Please refer to the README file of [LogPPT](benchmark/LogPPT/README.md) or [UniParser](benchmark/UniParser/README.md) to use one-click script to parse and evaluate each log parsers respectively.
 
 
-## Acknowledgements
+## 🔥 Citation
 
-This repository is based on the repositories of the following two papers:
+If you use our benchmark or datasets for research, please cite the following papers:
 
-- [ICSE'19] Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. Tools and Benchmarks for Automated Log Parsing. International Conference on Software Engineering (ICSE), 2019.
+- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R. Lyu. [A Large-scale Evaluation for Log Parsing Techniques: How Far are We?](https://arxiv.org/abs/2308.10828) ISSTA, 2024. 
 
-- [ICSE'22] Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. Guidelines for Assessing the Accuracy of  Log Message Template Identification Techniques. International Conference on Software Engineering (ICSE), 2022.
+- Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. [Loghub: A Large Collection of System Log Datasets for AI-driven Log Analytics](https://arxiv.org/abs/2008.06448). ISSRE, 2023.
+
+In addition, if you use the souce code of our benchmark for research, please also cite the following two papers:
+
+- Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. [Guidelines for Assessing the Accuracy of Log Message Template Identification Techniques.](https://dl.acm.org/doi/abs/10.1145/3510003.3510101) ICSE, 2022.
+
+- Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing.](https://arxiv.org/abs/1811.03509) ICSE, 2019.
