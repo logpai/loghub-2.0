@@ -2,21 +2,6 @@
 
 LogLSHD is an enhanced log parsing framework built upon [Loghub-2.0](https://github.com/logpai/loghub-2.0), integrating Locality-Sensitive Hashing (LSH) techniques to improve log template extraction and clustering efficiency.
 
-
-## Requirements
-
-Owing to the large scale of the benchmark in the experiments, the requirements of the benchmark of all log parsers are:
-
-- At least 16GB memory.
-- At least 100GB storage.
-- GPU (for LogPPT and UniParser).
-
-**Installation**
-
-1. Install ```python >= 3.8```
-2. ```pip install -r requirements.txt```
-
-
 ## Getting Started
 
 To use LogLSHD for log parsing, follow these steps:
