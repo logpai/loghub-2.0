@@ -13,7 +13,7 @@ from tqdm import tqdm
 from .DTW import DTW_TemplateGenerator
     
 class LogParser():
-    def __init__(self, indir, log_format, outdir, rex=[], k=1, sig_len=20, cls_rate=0.7):
+    def __init__(self, indir, log_format, outdir, rex=[], k=1, sig_len=20, jaccard_t=0.7):
         """
         Initialize LogParser with LSH.
         """
@@ -24,23 +24,17 @@ class LogParser():
         self.rex_pattern = re.compile("|".join(self.rex))
         self.word_pattern = re.compile(r'^[a-zA-Z]+[.,]*$')  # Define a regular expression pattern to match pure words (only letters)
 
-        self.k = k  # k-gram shingle
-        self.sig_len = sig_len  # Length of signature
-        self.cls_rate = cls_rate
-
-        # template generation paramrters
-        self.repr_count = 100 # from a group
-        self.word_freq_filter = False
-        self.freq_sample_size = 100
-        self.is_DTW = True
-        
+        self.k = k                 # k-token shingle
+        self.sig_len = sig_len     # Length of signature
+        self.jaccard_t = jaccard_t # Jaccard similarity threshold
+        self.is_DTW = True         # If Dynamic Time Warping is being used
         if self.is_DTW:
             self.DTW = DTW_TemplateGenerator()
 
         self.template_dict = {}
 
     def parse(self, filename):
-        print(f"LSH: k={self.k},sig_len={self.sig_len},cls_rate={self.cls_rate}")
+        print(f"\nSetting of LSH: \n{self.k}-token shingle, \nSignature Length: {self.sig_len}, \nJaccard Similarity Threshold: {self.jaccard_t}.\n")
 
         start_time = datetime.now()
         filepath = os.path.join(self.path, filename)
@@ -67,7 +61,7 @@ class LogParser():
 
         self.df_log.drop(['TokenCount','ContentLength','Char1','Char2','Char3','Char4','Char5'], axis=1, inplace=True)
 
-        if self.cls_rate == 1:
+        if self.jaccard_t == 1:
             for i, (_, group) in enumerate(grouped_logs):
                 # Find the template for the cluster
                 group_idxs = group.index.tolist()
@@ -95,7 +89,7 @@ class LogParser():
                     self.df_log.loc[list(eventid_indices), 'EventId'] = list(eventid_values)
         else:
 
-            lsh = MinHashLSH(threshold=self.cls_rate, num_perm=self.sig_len)
+            lsh = MinHashLSH(threshold=self.jaccard_t, num_perm=self.sig_len)
             print('LSH number of bands: ', lsh.b, ', band size: ', lsh.r)
 
             # Insert representative signatures into LSH
@@ -128,7 +122,6 @@ class LogParser():
                 merged_clusters = []
                 for idx in similar_clusters:
                     similar_group = grouped_logs.get_group(grouped_keys[int(idx)]).index.tolist() 
-                    # repr_idxs.extend(similar_group[:self.repr_count])
                     merged_clusters.extend(similar_group)
                     visited.add(int(idx))
 
@@ -163,13 +156,8 @@ class LogParser():
         """
         Split a log message into k-token shingle (Token-level shingle).
         """   
-        # print('log:', log)
         # Split the content into tokens and keep only pure word tokens
         tokens = [token for token in log.split() if self.word_pattern.match(token)]
-        # tokens = [token for token in log.split()]
-
-        # log = self.rex_pattern.sub('', log)
-        # tokens = log.split()
 
         if not tokens:
             return set([log])
@@ -182,7 +170,6 @@ class LogParser():
         # If no shingles were generated, add the whole content as a single shingle
         if not shingles:
             shingles.append(' '.join(tokens))
-        # print('shingles: ',shingles)
 
         return set(shingles)
     
@@ -191,36 +178,12 @@ class LogParser():
 
         selected_idxs = []
 
-        if self.word_freq_filter:
-            # Randomly select 100 log from this cluster
-            if len(log_idxs) > self.freq_sample_size:
-                sampled_indices_for_freq = np.random.choice(log_idxs, self.freq_sample_size, replace=False)
-            else:
-                sampled_indices_for_freq = log_idxs
-
-            # Calculate token frequencies in the sampled logs
-            all_tokens = [
-                token for idx in sampled_indices_for_freq
-                for token in self.df_log.iloc[idx]['Content'].split()
-            ]
-            token_counts = Counter(all_tokens)
-
-            # Select top 10 high-frequency tokens
-            top_tokens = {token for token, _ in token_counts.most_common(10)}
-
-            # Use these top tokens to pick the most representative samples
-            selected_idxs = sorted(
-                log_idxs,
-                key=lambda idx: sum(token_counts[token] for token in self.preprocess(self.df_log.iloc[idx]['Content']).split() if token in top_tokens),
-                reverse=True
-            )[:sample_size]
+        # If the cluster size is smaller than the sample size, use the whole cluster
+        if len(log_idxs) <= sample_size:
+            selected_idxs = log_idxs
         else:
-            # If the cluster size is smaller than the sample size, use the whole cluster
-            if len(log_idxs) <= sample_size:
-                selected_idxs = log_idxs
-            else:
-                # Randomly sample a subset of indices from the cluster
-                selected_idxs = np.random.choice(log_idxs, sample_size, replace=False)
+            # Randomly sample a subset of indices from the cluster
+            selected_idxs = np.random.choice(log_idxs, sample_size, replace=False)
             
         if self.is_DTW:
 

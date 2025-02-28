@@ -98,10 +98,9 @@ if __name__ == "__main__":
             LogParser=parser,
             param_dict={
                 'log_format': setting['log_format'], 'indir': indir, 'outdir': output_dir, 'rex': setting['regex'],
-                'k':1,
-                'sig_len':50, #lsh_param_dict[dataset]['sig_len']
-                'cls_rate': 0.95
-                # 'dataset':dataset
+                'k': setting['k'],
+                'sig_len': setting['sig_len'],
+                'jaccard_t': setting['jaccard_t']
             },
             otc=args.oracle_template_correction,
             complex=args.complex,
