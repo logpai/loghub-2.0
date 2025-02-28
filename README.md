@@ -41,3 +41,24 @@ cd benchmark/
 cd benchmark/
 ./run_statistic_full.sh
 ```
+
+## Default Jaccard Thresholds of LSH for Different Datasets
+
+The following table presents the default Jaccard similarity thresholds used in LogLSHD for various datasets.
+
+| Dataset     | Jaccard Threshold |
+|------------|------------------|
+| Proxifier  | 1.00             |
+| Linux      | 0.65             |
+| Apache     | 0.65             |
+| Zookeeper  | 0.80             |
+| Hadoop     | 0.85             |
+| HealthApp  | 0.65             |
+| OpenStack  | 0.70             |
+| HPC        | 0.70             |
+| Mac        | 0.95             |
+| OpenSSH    | 0.85             |
+| Spark      | 0.90             |
+| Thunderbird| 0.55             |
+| BGL        | 0.90             |
+| HDFS       | 0.80             |
