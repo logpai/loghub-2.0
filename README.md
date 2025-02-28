@@ -1,13 +1,6 @@
 # LogLSHD
 
-LogLSHD is an enhanced log parsing framework built upon Loghub-2.0, integrating Locality-Sensitive Hashing (LSH) techniques to improve log template extraction and clustering efficiency.
-
-
-## Datasets download
-
-Please first download the full datasets of Loghub-2.0 via [Zenodo](https://zenodo.org/record/8275861).
-
-Then, you need to put these datasets into `full_dataset/` following the format of `2k_dataset`.
+LogLSHD is an enhanced log parsing framework built upon [Loghub-2.0](https://github.com/logpai/loghub-2.0), integrating Locality-Sensitive Hashing (LSH) techniques to improve log template extraction and clustering efficiency.
 
 
 ## Requirements
@@ -24,20 +17,23 @@ Owing to the large scale of the benchmark in the experiments, the requirements o
 2. ```pip install -r requirements.txt```
 
 
-## One-Click Results Reproduction
+## Getting Started
 
-Running the entire benchmark using Loghub-2.0 datasets requires more than **48 hours** to complete.
+To use LogLSHD for log parsing, follow these steps:
 
-Note that if you would like to evaluate your parser, *one can easily put their parsed results following the format as the files shown in `result/`, and run our evluation code.*
+### Datasets download
 
+Please first download the full datasets of Loghub-2.0 via [Zenodo](https://zenodo.org/record/8275861).
 
+Then, you need to put these datasets into `full_dataset/` following the format of `2k_dataset`.
 
-### Evaluation of all 15 parsers
+### Install dependencies
 
-One can follow the steps to evaluate all parsers using Loghub-2k or the proposed Loghub-2.0 datasets. The overall time cost is more than 48 hours.
+1. Install ```python >= 3.8```
+2. ```pip install -r requirements.txt```
 
+### Evaluation of LogLSHD with 14 datasets
 
-- Run all statistic-based log parsers on Loghub-2.0
 
 ```bash
 cd benchmark/
