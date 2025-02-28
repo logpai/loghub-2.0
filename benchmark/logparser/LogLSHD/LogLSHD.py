@@ -292,21 +292,6 @@ class LogParser():
             line = re.sub(currentRex, '<*>', line)
         return line
 
-    def get_template(self, content_i, content_j):
-        """
-        Generate an event template by comparing two log lines.
-        """
-        words_i = content_i.split()
-        words_j = content_j.split()
-        template = []
-        
-        for w1, w2 in zip(words_i, words_j):
-            if w1 == w2:
-                template.append(w1)  # Keep static parts
-            else:
-                template.append("<*>")  # Replace variable parts with <*>
-        
-        return " ".join(template)
 
     def wirteResultToFile(self):
         """

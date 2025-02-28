@@ -117,7 +117,7 @@ def main():
         indir = os.path.join(input_dir, os.path.dirname(setting['log_file']))
         log_file = os.path.basename(setting['log_file'])
 
-        parser = LSH.LogParser(indir, setting['log_format'], output_dir, rex=setting['regex'], rsupport=setting['rsupport'])
+        parser = LogLSHD.LogParser(indir, setting['log_format'], output_dir, rex=setting['regex'], rsupport=setting['rsupport'])
         parser.parse(log_file)
 
         F1_measure, accuracy = evaluator.evaluate(
