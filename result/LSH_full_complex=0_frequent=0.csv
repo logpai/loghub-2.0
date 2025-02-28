@@ -1,0 +1,11 @@
+,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14
+Dataset,Proxifier,Linux,Apache,Zookeeper,Hadoop,HealthApp,OpenStack,HPC,Mac,OpenSSH,Spark,Thunderbird,BGL,HDFS,Average
+parse_time,,,,,,,,,,,,,,,
+identified_templates,,,,,,,,,,,,,,,
+ground_templates,,,,,,,,,,,,,,,
+GA,,,,,,,,,,,,,,,
+PA,,,,,,,,,,,,,,,
+FGA,,,,,,,,,,,,,,,
+PTA,,,,,,,,,,,,,,,
+RTA,,,,,,,,,,,,,,,
+FTA,,,,,,,,,,,,,,,

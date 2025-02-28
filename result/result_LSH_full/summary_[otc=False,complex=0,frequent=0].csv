@@ -1,0 +1,15 @@
+Dataset,parse_time,identified_templates,ground_templates,GA,PA,FGA,PTA,RTA,FTA
+Proxifier,None,None,None,None,None,None,None,None,None
+Linux,None,None,None,None,None,None,None,None,None
+Apache,None,None,None,None,None,None,None,None,None
+Zookeeper,None,None,None,None,None,None,None,None,None
+Hadoop,None,None,None,None,None,None,None,None,None
+HealthApp,None,None,None,None,None,None,None,None,None
+OpenStack,None,None,None,None,None,None,None,None,None
+HPC,None,None,None,None,None,None,None,None,None
+Mac,None,None,None,None,None,None,None,None,None
+OpenSSH,None,None,None,None,None,None,None,None,None
+Spark,None,None,None,None,None,None,None,None,None
+Thunderbird,None,None,None,None,None,None,None,None,None
+BGL,None,None,None,None,None,None,None,None,None
+HDFS,None,None,None,None,None,None,None,None,None
