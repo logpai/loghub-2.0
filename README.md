@@ -59,6 +59,6 @@ The following table presents the default Jaccard similarity thresholds used in L
 | Mac        | 0.95             |
 | OpenSSH    | 0.85             |
 | Spark      | 0.90             |
-| Thunderbird| 0.55             |
+| Thunderbird| 0.60             |
 | BGL        | 0.90             |
 | HDFS       | 0.80             |
