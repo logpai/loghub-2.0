@@ -62,3 +62,7 @@ The following table presents the default Jaccard similarity thresholds used in L
 | Thunderbird| 0.60             |
 | BGL        | 0.90             |
 | HDFS       | 0.80             |
+
+## Research Paper
+
+For more details, please refer to the paper: [LogLSHD: Locality-Sensitive Hashing for Accurate and Efficient Log Parsing](https://arxiv.org/abs/2504.02172).
