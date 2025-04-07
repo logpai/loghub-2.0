@@ -13,7 +13,7 @@ After initial grouping, a stricter similarity comparison is applied to aggregate
 4. **Template Extraction**
 Finally, the method randomly selects a representative sample of 10 logs from each group for template extraction, resulting in the formation of final log templates. The template extraction process leverages Dynamic Time Warping (DTW) to optimize accuracy in conjunction with similarity grouping.
 
-![LogLSHD](https://imgur.com/a/9KufE4C.jpg "Structure of LogLSHD.")
+![LogLSHD](https://i.imgur.com/sKK1LA0.png "Structure of LogLSHD.")
 
 ## Getting Started
 
