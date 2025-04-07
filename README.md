@@ -1,81 +1,134 @@
-# LogLSHD
+# Loghub-2.0 (LogPub)
 
-LogLSHD is an enhanced log parsing framework built upon [Loghub-2.0](https://github.com/logpai/loghub-2.0), integrating Locality-Sensitive Hashing (LSH) techniques to improve log template extraction and clustering efficiency.
+Loghub-2.0 is a collection of large-scale annotated datasets for log parsing based on Loghub, proposed by LogPAI.
 
-## Method Overview
-LogLSHD consists of the following stages:
-1. **Preprocessing**
-In this stage, raw log messages are preprocessed to replace common variables (such as IP addresses and domain names) with placeholders using domain-specific regular expressions.
-2. **Initial Log Grouping**
-This stage employs simple heuristic methods to initially group unstructured log messages. It assesses whether logs belong to the same group by comparing the token count, content length, and specific position characters.
-3. **Merging Initial Groups into Log Clusters** 
-After initial grouping, a stricter similarity comparison is applied to aggregate the grouped logs. Using a Jaccard similarity threshold, similar log messages are clustered together for template extraction.
-4. **Template Extraction**
-Finally, the method randomly selects a representative sample of 10 logs from each group for template extraction, resulting in the formation of final log templates. The template extraction process leverages Dynamic Time Warping (DTW) to optimize accuracy in conjunction with similarity grouping.
+Based on Loghub-2.0, we propose a more comprehensive benchmark of log parsers. The detailed evaluation results could be found at [RQ_experiments](RQs_experiments/README.md) 🔗.
 
-![LogLSHD](https://i.imgur.com/sKK1LA0.png "Structure of LogLSHD.")
 
-## Getting Started
+## Datasets Characteristics
 
-To use LogLSHD for log parsing, follow these steps:
+| Software systems          | # Annotated Logs (Loghub-2.0) | # Templates  (Loghub-2.0) | # Templates (Loghub-2k) |
+| ------------------------- | ------------------------- | --------------------- | ----------------------- |
+| **Distributed systems**   |                           |                       |                         |
+| Hadoop                    | 179,993                   | 236                   | 114                     |
+| HDFS                      | 11,167,740                | 46                    | 14                      |
+| OpenStack                 | 207,632                   | 48                    | 43                      |
+| Spark                     | 16,075,117                | 236                   | 36                      |
+| Zookeeper                 | 74,273                    | 89                    | 50                      |
+| **Supercomputer systems** |                           |                       |                         |
+| BGL                       | 4,631,261                 | 320                   | 120                     |
+| HPC                       | 429,987                   | 74                    | 46                      |
+| Thunderbird               | 16,601,745                | 1,241                 | 149                     |
+| **Operating systems**     |                           |                       |                         |
+| Linux                     | 23,921                    | 338                   | 118                     |
+| Mac                       | 100,314                   | 626                   | 341                     |
+| **Server application**    |                           |                       |                         |
+| Apache                    | 51,977                    | 29                    | 6                       |
+| OpenSSH                   | 638,946                   | 38                    | 27                      |
+| **Standalone software**   |                           |                       |                         |
+| HealthApp                 | 212,394                   | 156                   | 75                      |
+| Proxifier                 | 21,320                    | 11                    | 8                       |
+| **Average**               | **3,601,187**             | **249.1**             | **81.9**                |
 
-### 1. Datasets download
+
+## Datasets download
 
 Please first download the full datasets of Loghub-2.0 via [Zenodo](https://zenodo.org/record/8275861).
 
-After downloading, place the datasets in the `full_dataset/` directory, ensuring the format matches the `2k_dataset` directory.
+Then, you need to put these datasets into `full_dataset/` following the format of `2k_dataset`.
 
-### 2. Install Dependencies
+
+## Repository Organization 
+
+```
+├── 2k_dataset/ # the original Loghub-2k datasets
+├── full_dataset/ # unzip the Loghub-2.0 into this directory
+│   └── post_process.py # we provide the heuristic roles used in our annotation of templates 
+├── benchmark/
+│   ├── evaluation/
+│   ├── logparser/
+│   ├── old_benchmark/
+│   ├── LogPPT/ # contains the modified source code of LogPPT
+│   ├── UniParser/ # contains the source code of implemented UniParser
+│   ├── run_statistic_2k.sh # the script to run all statistic-based log parsers on Loghub-2k datasets
+│   └── run_statistic_full.sh # the script to run all statistic-based log parsers on Loghub-2.0 datasets
+├── result/
+│   ├── ...... # 
+│   └── ...... # contains the output evaluation metric files and all parsed results
+├── RQ_experiments/ # contains the experimental results of RQs
+│   ├── RQ1/
+│   ├── RQ2/
+│   └── RQ3/
+├── requirements.txt
+└── README.MD
+```
+
+## Requirements
+
+Owing to the large scale of the benchmark in the experiments, the requirements of the benchmark of all log parsers are:
+
+- At least 16GB memory.
+- At least 100GB storage.
+- GPU (for LogPPT and UniParser).
+
+**Installation**
 
 1. Install ```python >= 3.8```
 2. ```pip install -r requirements.txt```
 
-### 3. Run Benchmark
 
+## One-Click Results Reproduction
 
-- Evaluate LogLSHD performance on 14 datasets:
+Running the entire benchmark using Loghub-2.0 datasets requires more than **48 hours** to complete.
+
+Note that if you would like to evaluate your parser, *one can easily put their parsed results following the format as the files shown in `result/`, and run our evluation code.*
+
+## Large-scale benchmarking
+
+If you woud like to re-run all parsers using Loghub-2.0, please follow our large-scale benchmarking steps.
+
+### Quick Demo using Drain
+
+We give a demo script to run Drain on both Loghub-2k and Loghub-2.0, this will takes about 2-3 hours.
 
 ```bash
 cd benchmark/
-./run_lsh_full.sh
+./demo.sh
 ```
 
-- Run all statistic-based log parsers on Loghub-2k:
+### Evaluation of all 16 parsers
+
+One can follow the steps to evaluate all parsers using Loghub-2k or the proposed Loghub-2.0 datasets. The overall time cost is more than 48 hours.
+
+- Run all statistic-based log parsers on Loghub-2k
 
 ```bash
-
 cd benchmark/
 ./run_statistic_2k.sh
 ```
 
-- Run all statistic-based log parsers on Loghub-2.0:
+- Run all statistic-based log parsers on Loghub-2.0
 
 ```bash
 cd benchmark/
 ./run_statistic_full.sh
 ```
 
-## Default Jaccard Thresholds of LSH for Different Datasets
+- Run Semantic-based log parsers: LogPPT & UniParser
 
-The following table presents the default Jaccard similarity thresholds used in LogLSHD for various datasets.
+  Since these methods are quite different with other log parsers, and they requires a GPU to support efficient parsing, we seperate their environments from other log parsers. Please refer to the README file of [LogPPT](benchmark/LogPPT/README.md) or [UniParser](benchmark/UniParser/README.md) to use one-click script to parse and evaluate each log parsers respectively.
 
-| Dataset     | Jaccard Threshold |
-|------------|------------------|
-| Proxifier  | 1.00             |
-| Linux      | 0.65             |
-| Apache     | 0.65             |
-| Zookeeper  | 0.80             |
-| Hadoop     | 0.85             |
-| HealthApp  | 0.65             |
-| OpenStack  | 0.70             |
-| HPC        | 0.70             |
-| Mac        | 0.95             |
-| OpenSSH    | 0.85             |
-| Spark      | 0.90             |
-| Thunderbird| 0.60             |
-| BGL        | 0.90             |
-| HDFS       | 0.80             |
 
-## Research Paper
+## 🔥 Citation
 
-For more details, please refer to the paper: [LogLSHD: Locality-Sensitive Hashing for Accurate and Efficient Log Parsing](https://arxiv.org/abs/2504.02172).
+If you use our benchmark or datasets for research, please cite the following papers:
+
+- Zhihan Jiang, Jinyang Liu, Junjie Huang, Yichen Li, Yintong Huo, Jiazhen Gu, Zhuangbin Chen, Jieming Zhu, Michael R. Lyu. [A Large-scale Evaluation for Log Parsing Techniques: How Far are We?](https://arxiv.org/abs/2308.10828) ISSTA, 2024. 
+
+- Jieming Zhu, Shilin He, Pinjia He, Jinyang Liu, Michael R. Lyu. [Loghub: A Large Collection of System Log Datasets for AI-driven Log Analytics](https://arxiv.org/abs/2008.06448). ISSRE, 2023.
+
+In addition, if you use the souce code of our benchmark for research, please also cite the following two papers:
+
+- Khan Zanis Ali, Shin Donghwan, Bianculli Domenico, Briand Lionel. [Guidelines for Assessing the Accuracy of Log Message Template Identification Techniques.](https://dl.acm.org/doi/abs/10.1145/3510003.3510101) ICSE, 2022.
+
+- Jieming Zhu, Shilin He, Jinyang Liu, Pinjia He, Qi Xie, Zibin Zheng, Michael R. Lyu. [Tools and Benchmarks for Automated Log Parsing.](https://arxiv.org/abs/1811.03509) ICSE, 2019.
