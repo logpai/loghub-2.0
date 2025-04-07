@@ -2,6 +2,17 @@
 
 LogLSHD is an enhanced log parsing framework built upon [Loghub-2.0](https://github.com/logpai/loghub-2.0), integrating Locality-Sensitive Hashing (LSH) techniques to improve log template extraction and clustering efficiency.
 
+## Method Overview
+LogLSHD consists of the following stages:
+1. **Preprocessing**
+In this stage, raw log messages are preprocessed to replace common variables (such as IP addresses and domain names) with placeholders using domain-specific regular expressions.
+2. **Initial Log Grouping**
+This stage employs simple heuristic methods to initially group unstructured log messages. It assesses whether logs belong to the same group by comparing the token count, content length, and specific position characters.
+3. **Merging Initial Groups into Log Clusters** 
+After initial grouping, a stricter similarity comparison is applied to aggregate the grouped logs. Using a Jaccard similarity threshold, similar log messages are clustered together for template extraction.
+4. **Template Extraction**
+Finally, the method randomly selects a representative sample of 10 logs from each group for template extraction, resulting in the formation of final log templates. The template extraction process leverages Dynamic Time Warping (DTW) to optimize accuracy in conjunction with similarity grouping.
+
 ## Getting Started
 
 To use LogLSHD for log parsing, follow these steps:
