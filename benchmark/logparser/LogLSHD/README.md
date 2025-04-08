@@ -50,7 +50,9 @@ cd benchmark/
 
 ## Default Jaccard Thresholds of LSH for Different Datasets
 
-The following table presents the default Jaccard similarity thresholds used in LogLSHD for various datasets.
+The following table presents the default Jaccard similarity thresholds used in LogLSHD for various datasets. 
+
+You can use a fixed Jaccard Threshold (0.9) across all different datasets, or you can use dataset-specific Jaccard Threshold values in the table below.
 
 | Dataset     | Jaccard Threshold |
 |------------|------------------|
@@ -69,6 +71,8 @@ The following table presents the default Jaccard similarity thresholds used in L
 | BGL        | 0.90             |
 | HDFS       | 0.80             |
 
-## Research Paper
+## Citation
 
-For more details, please refer to the paper: [LogLSHD: Locality-Sensitive Hashing for Accurate and Efficient Log Parsing](https://arxiv.org/abs/2504.02172).
+If you use this tool for research, please cite the following paper:
+ 
+Shu-Wei Huang, Xingfang Wu, and Heng Li, “LogLSHD: Fast Log Parsing with Locality-Sensitive Hashing and Dynamic Time Warping,” in 21st International Conference on Predictive Models and Data Analytics in Software Engineering (PROMISE). 2025. Preprint: [arXiv](https://arxiv.org/abs/2504.02172).
