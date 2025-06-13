@@ -9,4 +9,6 @@ pandas==2.0.3
 regex==2022.3.2
 scikit_learn==1.2.2
 scipy
-tqdm==4.65.0
+tqdm==4.65.
+fastdtw==0.3.4
+datasketch==1.6.5

@@ -96,7 +96,7 @@ cd benchmark/
 ./demo.sh
 ```
 
-### Evaluation of all 15 parsers
+### Evaluation of all 16 parsers
 
 One can follow the steps to evaluate all parsers using Loghub-2k or the proposed Loghub-2.0 datasets. The overall time cost is more than 48 hours.
 

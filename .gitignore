@@ -1,2 +1,5 @@
 
 .DS_Store
+./result/
+./full_dataset/
+./2k_dataset/
