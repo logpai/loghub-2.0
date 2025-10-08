@@ -15,6 +15,8 @@ Finally, the method randomly selects a representative sample of 10 logs from eac
 
 ![LogLSHD](https://i.imgur.com/sKK1LA0.png "Structure of LogLSHD.")
 
+**Note**: In the actual implementation, the pre-processing is performed at the beginning of the template extraction step for better efficiency: fewer logs to be matched by the pre-processing regexes.
+
 ## Getting Started
 
 To use LogLSHD for log parsing, follow these steps:
